@@ -2,6 +2,8 @@
 
 LOCAL_PATH:= $(call my-dir)
 
+LOCAL_CFLAGS := -fno-strict-aliasing
+
 libext4_utils_src_files := \
     make_ext4fs.c \
     ext4fixup.c \
